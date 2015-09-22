@@ -8,8 +8,11 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
+  validates :terms_of_service, acceptance: true
+
   def enrolled_in?(course)
     return enrolled_courses.include?(course)
   end
+
 
 end
