@@ -25,7 +25,11 @@
 
     <div class="field">
       <%= f.check_box :terms_of_service %>
-      <%= f.label :terms_of_service %>
+      <%= f.label :I_have_read_and_agree_to_the_Privacy_Policy %>
+    </div>
+
+    <div class="field">
+      <%= link_to 'Privacy Policy', policy_path %>
     </div>
 
     <div class="actions">
