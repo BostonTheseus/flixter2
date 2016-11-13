@@ -1,4 +1,7 @@
 == README
 
-"This app exists."
--Marco
+* This app is designed to illustrate my proficiency with a complex Rails application that includes secure payments, interaction with AWS storage, dynamic JavaScript interface (as an administer for a course, the admin user can rearrange course orders dynamically), and video and image uploading.
+
+* I had the most fun with this app as I was able to use explore some of my design capabilities. Seeing the ability of JavaScript here also was very interesting to me, as I'd interacted a little with jQuery and now have an understanding of the utility of both.
+
+* There is definitely more design I'd like to explore on this, but I feel like it's a good display of my skills as is.
